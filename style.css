@@ -28,6 +28,19 @@ ul > li {
   list-style: none;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4f46e5;
+  border-radius: 5px;
+}
+
 .text-bold {
   font-weight: 700;
 }
