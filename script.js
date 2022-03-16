@@ -55,7 +55,7 @@ btnToTop.addEventListener("click", () => {
 
 window.addEventListener("scroll", scrollScreen);
 
-const destination = document.querySelectorAll(".destination");
+const destinations = document.querySelectorAll(".destination");
 const cards = document.querySelectorAll(".card");
 
 const observer = new IntersectionObserver(
@@ -77,8 +77,8 @@ const observer = new IntersectionObserver(
   }
 );
 
-destination.forEach((image) => {
-  observer.observe(image);
+destinations.forEach((destination) => {
+  observer.observe(destination);
 });
 
 cards.forEach((card) => {

@@ -341,7 +341,6 @@ ul > li {
 }
 
 .services .services-text-wrapper h1 {
-  color: #1e293b;
   font-size: 36px;
 }
 
@@ -646,7 +645,7 @@ footer {
 }
 
 .enter {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
   transition: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -794,7 +793,6 @@ footer {
   }
 
   .heading {
-    color: #4f46e5;
     padding-top: 35px;
     padding-bottom: 45px;
   }
@@ -843,7 +841,6 @@ footer {
   }
 
   .heading {
-    color: #4f46e5;
     padding-top: 35px;
     padding-bottom: 45px;
   }
